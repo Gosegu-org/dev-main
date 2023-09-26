@@ -11,7 +11,7 @@ echo " ■ 암호화된 비밀번호 : {$passwd} <br>";
 echo "-------------------------------------------------------------------------------- <br>";
 
 $inpw = "ok8563";
-if(crypt($inpw, $passwd) == $passwd)
+if(crypt($inpw) == $passwd)
 {
 	echo " ■ 비밀번호가 일치하는지를 알아보기 위한 if문 <br><br>";
 	echo " ★★ welcome !!! 비밀번호 확인 완료 !!! welcome ★★<br>";
