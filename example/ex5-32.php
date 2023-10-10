@@ -1,11 +1,11 @@
 ﻿<?php
-    $start = mktime(7, 00, 15, 1, 1, 2000);    //시작일 시각
-    $std1 = date("Y-m-d일 H:i:s 부터", $start);  //년-월-일 시:분:초 형식으로 출력
-    $end = mktime(23, 59, 55, 12, 31, 2030);     //종료일 시각
-    $std2 = date("Y-m-d일 H:i:s 까지", $end);   //년-월-일 시:분:초 형식으로 출력
+    $start = mktime(7, 00, 15, 1, 1, 2000);
+    $std1 = date("Y-m-d일 H:i:s 부터", $start);
+    $end = mktime(23, 59, 55, 12, 31, 2030);
+    $std2 = date("Y-m-d일 H:i:s 까지", $end);
     $count =  $end - $start ;
-    $total1 = intval($count / 86400);            // 1일(24x60x60=86400)단위로 환산
-    $total2 = intval(($count % 86400) / 3600);  // 일수를 제외한 시간
+    $total1 = intval($count / 86400);
+    $total2 = intval(($count % 86400) / 3600);
     echo "<B> ※ mktime( )함수와 date( )함수의 사용 </B> <br>";
     echo "-------------------------------------------------------------- <br>";
     echo "■ 시작일 : {$std1} <br>";

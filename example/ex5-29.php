@@ -4,7 +4,7 @@ echo "------------------------------------------ <br>";
 $a = "You're my best friend. ";    
 $b  = "공부는 \' 열정 \' 입니다. ";
 
-$add1 = addslashes($a);    //역슬래시 삽입
+$add1 = addslashes($a);
 $add2 = addslashes($b);   
 echo " {$add1} <br> {$add2} <p>";
 
