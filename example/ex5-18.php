@@ -3,4 +3,4 @@
 <textarea rows="3" cols="30" name="a">  
 </textarea><br>
 <input type="submit" value=" 보내기 ">
-</form>
+</form> 
